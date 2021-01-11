@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAMESPACE INVADERS</title>
+    <style>
+        body {
+            text-align: center;
+            /* Background source: https://wallpapersden.com/vaporwave-industrial-reflection-wallpaper/7680x4320/   */
+            background: url('./images/bodybackground.jpg');
+            background-repeat: no-repeat;
+            background-size: 200%;
+            background-position: center;
+        }
+        canvas {
+            border: 2px solid black;
+            /* Background source: https://giphy.com/gifs/twitter-profile-simple-TxVVB6PfWMjE4      */
+            background: url('./images/background.gif');
+        }
+        @font-face {
+            font-family: spaceFont;
+            src: url('./fonts/pixel_font.ttf');
+        }
+    </style>
+    <script src="main.js"></script>
+</head>
+<body onload="onLoad()">
+    <canvas width="600px" height="800px"></canvas>
+    <div style="font-family: spaceFont;">.</div>
+</body>
+</html>
