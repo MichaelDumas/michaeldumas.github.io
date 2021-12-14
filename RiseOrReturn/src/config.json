@@ -14,7 +14,7 @@
 		},
 		{
 			"name": "tiles",
-			"path": "./assets/images/maps/tiles.png",
+			"path": "./assets/images/Maps/tiles.png",
 			"width": 304,
 			"height": 208
 		},
@@ -174,7 +174,7 @@
 		},
 		{
 			"name": "Script",
-			"path": "./assets/fonts/riseofkingdom.otf"
+			"path": "./assets/fonts/RiseofKingdom.otf"
 		}
 	],
 	"sounds": [
