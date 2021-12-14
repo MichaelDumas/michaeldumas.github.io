@@ -4,16 +4,39 @@
     padding: 0px; 
     font-family: -apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,cantarell,helvetica neue,ubuntu,sans-serif;
     color: white;
+    font-size: 20px;
 }
 body {
     background-color: black;
+    background-image: url("assets/heroimage.jpg");
+    background-size: cover;
+}
+
+h1 {
+    font-size: 64px;
+}
+h2 {
+    font-size: 40px;
+}
+h3 {
+    font-size: 32px;
+    font-weight: 400;
+    margin: 32px;
+}
+p {
+    font-size: 24px;
 }
 nav {
-    background-color: rgb(20,20,20);
+    background-color: rgb(20,20,20, 0.7);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
+    width: 100%;
+    }
+
+    nav h2 {
+        font-size: 32px;
     }
 
     nav a {
@@ -21,6 +44,9 @@ nav {
     color: white;
     padding: 15px 10px;
     font-weight: bold;
+    height: 90px;
+    line-height: 60px;
+    margin: 14px;
     }
     .buttons:hover {
         border-right: 1px solid blueviolet;
@@ -32,6 +58,8 @@ nav {
         margin: 0px;
         padding-right: 0px;
         padding-bottom: 10px;
+        height: 64px;
+        width: 64px;
     }
 
     .logoname {
@@ -40,9 +68,8 @@ nav {
 }
 
 header {
-    background-image: url("assets/heroimage.jpg");
-    background-size: cover;
-    height: 400px;
+    height: 600px;
+    width: 100%;
     max-width: 100%;
     display: flex;
     flex-direction: column;
@@ -54,79 +81,48 @@ header {
 
     .hero_content h1 {
     color: white;
-    font-size: 50px;
+    font-size: 64px;
     }
 
     .hero_content p {
     color: white;
-    font-size: large;
     margin-bottom: 75px;
     }
 
-    header a {
-        background-color: rgb(30,30,30);
+    .heroButton {
+        background-color: rgb(20,20,20, 0.7);
         color: white;
         text-decoration: none;
         padding: 15px 25px;
+        margin: 50px;
+        font-size: 32px;
     }
     header a:hover {
         border: 1px solid blueviolet;
     }
 
-.aboutme {
-    color: white;
-    background-color: rgb(20,20,20);
-    height: 400px;
-    max-width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, fr);
-    grid-template-rows: 64px auto;
-    border-bottom: 2px solid blueviolet;
-    overflow: hidden;
-    }
-
-    .aboutme h1 {
-        grid-column: 1 / 3;
-        grid-row: 1 / 2;
-        margin: 10px;
-    }
-
-    .aboutme p {
-        grid-column: 1 / 2;
-        grid-row: 2 / 3;
-        font-size: large;
-        margin: 10px;
-    }
-
-    .aboutme .grad_image {
-        grid-column: 2 / 3;
-        grid-row: 1 / 3;
-        height: 100%;
-        display: flex;
-        align-content: center;
-        justify-content: center;
-    }
-
-    .aboutme img {
-        max-height: 100%;
-        margin: 10px;
-    }
-
 .my_projects {
         color: white;
-        background-color: rgb(20,20,20);
-        height: 100%;
+        background-color: rgb(20,20,20, 0.7);
+        background-size: cover;
+        height: 1200px;
+        width: 100%;
         max-width: 100%;
         display: grid;
         grid-template-columns: repeat(3, fr);
         grid-template-rows: 64px auto;
-        gap: 10px;
         border-bottom: 2px solid blueviolet;
         padding-bottom: 10px;
         overflow: hidden;
         }
 
-        .my_projects h1 {
+        .my_projects img {
+            height: 256px;
+            width: 400px;
+            object-fit: contain;
+        }
+
+        .my_projects h2 {
             grid-column: 1 / 4;
             grid-row: 1 / 2;
             margin: 10px;
@@ -134,25 +130,22 @@ header {
         }
 
         .my_projects p {
-            font-size: 15px;
             text-align: center;
             margin: 0px 10px 10px 10px;
         }
 
         .my_projects h3 {
             text-align: center;
-            margin: 10px 10px 0px 10px;
         }
     
         .raspberry {
             grid-column: 1 / 2;
             grid-row: 2 / 3;
-            background-color: rgb(40,40,40);
             flex-direction: column;
             display: flex;
             align-content: center;
             align-items: center;
-            margin: 10px 0px 10px 10px;
+            border-right: 1px solid blueviolet;
         }
 
         .raspberry_image {
@@ -163,12 +156,10 @@ header {
         .smash {
             grid-column: 2 / 3;
             grid-row: 2 / 3;
-            background-color: rgb(40,40,40);
             flex-direction: column;
             display: flex;
             align-content: center;
             align-items: center;
-            margin: 10px 0px;
         }
 
         .smash_image {
@@ -176,18 +167,61 @@ header {
             margin: 10px;
         }
 
-        .game {
+        .namespace_console {
             grid-column: 3 / 4;
             grid-row: 2 / 3;
-            background-color: rgb(40,40,40);
             display: flex;
             flex-direction: column;
             align-content: center;
             align-items: center;
-            margin: 10px 10px 10px 0px;
+            border-left: 1px solid blueviolet;
         }
 
-        .game_image {
+        .namespace_console_image {
+            max-width: 100%;
+            margin: 10px;
+        }
+
+        .homebudget {
+            grid-column: 1 / 2;
+            grid-row: 3 / 3;
+            flex-direction: column;
+            display: flex;
+            align-content: center;
+            align-items: center;
+            border-right: 1px solid blueviolet;
+        }
+
+        .homebudget_image {
+            max-width: 100%;
+            margin: 10px;
+        }
+
+        .riseorreturn {
+            grid-column: 2 / 3;
+            grid-row: 3 / 3;
+            flex-direction: column;
+            display: flex;
+            align-content: center;
+            align-items: center;
+        }
+
+        .riseorreturn_image {
+            max-width: 100%;
+            margin: 10px;
+        }
+
+        .namespace_js {
+            grid-column: 3 / 4;
+            grid-row: 3 / 3;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            align-items: center;
+            border-left: 1px solid blueviolet;
+        }
+
+        .namespace_js_image {
             max-width: 100%;
             margin: 10px;
         }
@@ -198,155 +232,5 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(20,20,20);
-}
-
-/*
------------------------------------------------
-    CSS Specific to influences.html
------------------------------------------------
-*/
-
-.influences {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, auto);
-    background-color: rgb(20,20,20);
-    max-width: 100%;
-    overflow: hidden;
-    }
-
-    .influences h1 {
-        grid-column: 1 / 3;
-        grid-row: 1 / 2;
-        text-align: center;
-        margin: 10px;
-    }
-    .influences img {
-        margin: 10px;
-    }
-
-    .cih {
-        grid-column: 1 / 2;
-        grid-row: 2 / 3; 
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 10px;
-        border-bottom: 2px solid blueviolet;
-    }
-    .cihtext {
-        grid-column: 2 / 3;
-        grid-row: 2 / 3;
-        padding: 10px;
-        text-align: left;
-        border-bottom: 2px solid blueviolet;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center; 
-    }
-
-    .codered {
-        grid-column: 2 / 3;
-        grid-row: 3 / 4;
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        border-bottom: 2px solid blueviolet;
-    }
-    .coderedtext {
-        grid-column: 1 / 2;
-        grid-row: 3 / 4; 
-        padding: 10px;
-        border-bottom: 2px solid blueviolet;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center; 
-    }
-
-    .undertale {
-        grid-column: 1 / 2;
-        grid-row: 4 / 5;
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        border-bottom: 2px solid blueviolet; 
-    }
-    .undertaletext {
-        grid-column: 2 / 3;
-        grid-row: 4/ 5;
-        padding: 10px; 
-        border-bottom: 2px solid blueviolet;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center; 
-    }
-
-    .csgo {
-        grid-column: 2 / 3;
-        grid-row: 5 / 6;
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center; 
-        border-bottom: 2px solid blueviolet;
-    }
-    .csgotext {
-        grid-column: 1 / 2;
-        grid-row: 5 / 6;
-        padding: 10px; 
-        border-bottom: 2px solid blueviolet;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center; 
-    }
-
-/*
------------------------------------------------
-    CSS Specific to contact.html
------------------------------------------------
-*/
-
-input {
-    background-color: rgb(30,30,30);
-    border: 1px solid blueviolet;
-    margin: 5px;
-    padding: 2px;
-}
-select {
-    background-color: rgb(30,30,30);
-    border: 1px solid blueviolet;
-    margin: 5px;
-    padding: 2px;
-}
-textarea {
-    background-color: rgb(30,30,30);
-    border: 1px solid blueviolet;
-    margin: 5px;
-    padding: 2px;
-}
-
-
-.contact p {
-    text-align: center;
-    margin: 5px;
-}
-.contact h1 {
-    text-align: center;
-    margin: 5px;
-}
-
-.contact {
-    background-color: rgb(20,20,20);
-    border-bottom: 1px solid blueviolet;
+    background-color: rgb(20,20,20, 0.7);
 }

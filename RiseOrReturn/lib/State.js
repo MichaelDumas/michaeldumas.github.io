@@ -1,0 +1,1 @@
+export default class State{enter(e){}exit(){}update(e){}render(){}}

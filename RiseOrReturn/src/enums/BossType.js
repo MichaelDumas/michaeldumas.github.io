@@ -1,0 +1,1 @@
+const BossType={Minotaur:"minotaur"};export default BossType;

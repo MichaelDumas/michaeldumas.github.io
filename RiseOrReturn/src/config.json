@@ -1,0 +1,264 @@
+{
+	"images": [
+		{
+			"name": "background",
+			"path": "./assets/images/background.jpg",
+			"width": 1280,
+			"height": 720
+		},
+		{
+			"name": "gameover",
+			"path": "./assets/images/gameover.png",
+			"width": 1680,
+			"height": 1000
+		},
+		{
+			"name": "tiles",
+			"path": "./assets/images/maps/tiles.png",
+			"width": 304,
+			"height": 208
+		},
+		{
+			"name": "player_walk_down",
+			"path": "./assets/images/Character/warrior/Down/Png/WarriorDownWalk.png",
+			"width": 384,
+			"height": 48
+		},
+		{
+			"name": "player_walk_up",
+			"path": "./assets/images/Character/warrior/Up/Png/WarriorUpWalk.png",
+			"width": 384,
+			"height": 48
+		},
+		{
+			"name": "player_walk_left",
+			"path": "./assets/images/Character/warrior/Left/Png/WarriorLeftWalk.png",
+			"width": 384,
+			"height": 48
+		},
+		{
+			"name": "player_walk_right",
+			"path": "./assets/images/Character/warrior/Right/Png/WarriorRightWalk.png",
+			"width": 384,
+			"height": 48
+		},
+		{
+			"name": "player_sword_down",
+			"path": "./assets/images/Character/warrior/Down/Png/WarriorDownAttack01.png",
+			"width": 288,
+			"height": 48
+		},
+		{
+			"name": "player_sword_up",
+			"path": "./assets/images/Character/warrior/Up/Png/WarriorUpAttack01.png",
+			"width": 288,
+			"height": 48
+		},
+		{
+			"name": "player_sword_left",
+			"path": "./assets/images/Character/warrior/Left/Png/WarriorLeftAttack01.png",
+			"width": 288,
+			"height": 48
+		},
+		{
+			"name": "player_sword_right",
+			"path": "./assets/images/Character/warrior/Right/Png/WarriorRightAttack01.png",
+			"width": 288,
+			"height": 48
+		},
+		{
+			"name": "player_idle_down",
+			"path": "./assets/images/Character/warrior/Down/Png/WarriorDownIdle.png",
+			"width": 240,
+			"height": 48
+		},
+		{
+			"name": "player_idle_up",
+			"path": "./assets/images/Character/warrior/Up/Png/WarriorUpIdle.png",
+			"width": 240,
+			"height": 48
+		},
+		{
+			"name": "player_idle_left",
+			"path": "./assets/images/Character/warrior/Left/Png/WarriorLeftIdle.png",
+			"width": 240,
+			"height": 48
+		},
+		{
+			"name": "player_idle_right",
+			"path": "./assets/images/Character/warrior/Right/Png/WarriorRightIdle.png",
+			"width": 240,
+			"height": 48
+		},
+		{
+			"name": "enemies",
+			"path": "./assets/images/enemies.png",
+			"width": 192,
+			"height": 128
+		},
+		{
+			"name": "hearts",
+			"path": "./assets/images/Items/Hearts/animated/border/heart_animated_1.png",
+			"width": 85,
+			"height": 17
+		},
+		{
+			"name": "food1",
+			"path": "./assets/images/Items/Food/56_hotdog_dish.png",
+			"width": 32,
+			"height": 32
+		},
+		{
+			"name": "food2",
+			"path": "./assets/images/Items/Food/100_taco_dish.png",
+			"width": 32,
+			"height": 32
+		},
+		{
+			"name": "food3",
+			"path": "./assets/images/Items/Food/102_waffle_dish.png",
+			"width": 32,
+			"height": 32
+		},
+		{
+			"name": "potion",
+			"path": "./assets/images/Items/Red-Potions/po‡ֶo vermelha.png",
+			"width": 48,
+			"height": 48
+		},
+		{
+			"name": "arrow",
+			"path": "./assets/images/arrows.png",
+			"width": 48,
+			"height": 24
+		},
+		{
+			"name": "equip1",
+			"path": "./assets/images/CharacterIcon/Icon1_29.png",
+			"width": 400,
+			"height": 400
+		},
+		{
+			"name": "equip2",
+			"path": "./assets/images/CharacterIcon/Icon1_61.png",
+			"width": 400,
+			"height": 400
+		},
+		{
+			"name": "equip3",
+			"path": "./assets/images/CharacterIcon/Icon6_94.png",
+			"width": 400,
+			"height": 400
+		},
+		{
+			"name": "scroll",
+			"path": "./assets/images/scroll.jpg",
+			"width": 1280,
+			"height": 720
+		},
+		{
+			"name": "minotaur",
+			"path": "./assets/images/Boss/Minotaur.png",
+			"width": 1024,
+			"height": 1920
+		}
+	],
+	"fonts": [
+		{
+			"name": "Zelda",
+			"path": "./assets/fonts/TheWildBreathofZelda.otf"
+		},
+		{
+			"name": "Death",
+			"path": "./assets/fonts/Death.otf"
+		},
+		{
+			"name": "Script",
+			"path": "./assets/fonts/riseofkingdom.otf"
+		}
+	],
+	"sounds": [
+		{
+			"name": "door",
+			"path": "./assets/sounds/door.wav",
+			"size": 4,
+			"volume": 0.8
+		},
+		{
+			"name": "hit-enemy",
+			"path": "./assets/sounds/hit_enemy.wav",
+			"size": 1,
+			"volume": 0.1
+		},
+		{
+			"name": "hit-player",
+			"path": "./assets/sounds/hit_player.wav",
+			"size": 1,
+			"volume": 0.1
+		},
+		{
+			"name": "sword",
+			"path": "./assets/sounds/sword.wav",
+			"size": 5,
+			"volume": 0.1
+		},
+		{
+			"name": "maintheme",
+			"path": "./assets/sounds/cathedral.wav",
+			"size": 1,
+			"volume": 0.3,
+			"loop": true
+		},
+		{
+			"name": "mainthemetrap",
+			"path": "./assets/sounds/cathedral-trap.wav",
+			"size": 1,
+			"volume": 0.3,
+			"loop": true
+		},
+		{
+			"name": "riseorreturn",
+			"path": "./assets/sounds/riseorreturn.wav",
+			"size": 1,
+			"volume": 0.3,
+			"loop": true
+		},
+		{
+			"name": "gameover",
+			"path": "./assets/sounds/missthepray.wav",
+			"size": 1,
+			"volume": 0.3,
+			"loop": true
+		},
+		{
+			"name": "swarm",
+			"path": "./assets/sounds/swarm.wav",
+			"size": 1,
+			"volume": 0.5
+		},
+		{
+			"name": "slime",
+			"path": "./assets/sounds/slime.wav",
+			"size": 1,
+			"volume": 0.5
+		},
+		{
+			"name": "skeleton",
+			"path": "./assets/sounds/skeleton.wav",
+			"size": 1,
+			"volume": 0.5
+		},
+		{
+			"name": "select",
+			"path": "./assets/sounds/select.wav",
+			"size": 1,
+			"volume": 0.1
+		},
+		{
+			"name": "change",
+			"path": "./assets/sounds/change.wav",
+			"size": 1,
+			"volume": 1
+		}
+	]
+}

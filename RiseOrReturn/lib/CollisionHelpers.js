@@ -1,0 +1,1 @@
+export const isAABBCollision=(o,i,t,n,s,e,r,c)=>o+t>=s&&o<=s+r&&i+n>=e&&i<=e+c;export const getCollisionDirection=(o,i,t,n,s,e,r,c)=>{const l=i+n-e,p=e+c-i,x=s+r-o,A=o+t-s;return p<l&&p<x&&p<A?0:l<p&&l<x&&l<A?1:x<A&&x<p&&x<l?2:A<x&&A<p&&A<l?3:void 0};

@@ -1,0 +1,1 @@
+const GameStateName={GameOver:"game-over",Play:"play",TitleScreen:"title-screen",Transition:"transition",Scroll:"scroll",Rules:"rules",HighScore:"highscore",HighScoreName:"highscore-name",Equipement:"equipement",Win:"win",RiseReturn:"rise-return"};export default GameStateName;

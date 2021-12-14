@@ -1,0 +1,1 @@
+const MinotaurStateName={Idle:"idle",Follow:"follow-minotaur",Cooldown:"cooldown",Swing:"swing",Spin:"spin",Death:"death"};export default MinotaurStateName;

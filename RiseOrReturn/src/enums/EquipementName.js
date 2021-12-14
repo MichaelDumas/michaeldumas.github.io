@@ -1,0 +1,1 @@
+const EquipementName={FlashBoots:0,MerlinPotion:1,DiamondChestPlate:2};export default EquipementName;

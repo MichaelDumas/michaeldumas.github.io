@@ -1,0 +1,1 @@
+const EnemyType={Skeleton:"skeleton",Slime:"slime",Swarm:"swarm"};export default EnemyType;

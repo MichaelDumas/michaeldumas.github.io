@@ -1,0 +1,1 @@
+export const roundedRectangle=(e,o,r,a,t,i=5,u=!1,T=!0)=>{e.save(),e.beginPath(),e.moveTo(o+i,r),e.lineTo(o+a-i,r),e.quadraticCurveTo(o+a,r,o+a,r+i),e.lineTo(o+a,r+t-i),e.quadraticCurveTo(o+a,r+t,o+a-i,r+t),e.lineTo(o+i,r+t),e.quadraticCurveTo(o,r+t,o,r+t-i),e.lineTo(o,r+i),e.quadraticCurveTo(o,r,o+i,r),e.closePath(),u&&e.fill(),T&&e.stroke(),e.restore()};

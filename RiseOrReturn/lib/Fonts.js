@@ -1,0 +1,1 @@
+export default class Fonts{constructor(){this.fonts={}}load(t){t.forEach((t=>{const n=new FontFace(t.name,`url(${t.path})`);this.fonts[t.name]=n,n.load().then((t=>{document.fonts.add(t)}))}))}get(t){return this.fonts[t]}}

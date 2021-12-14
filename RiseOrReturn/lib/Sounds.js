@@ -1,0 +1,1 @@
+import SoundPool from"./SoundPool.js";export default class Sounds{constructor(){this.sounds={}}load(o){o.forEach((o=>{this.sounds[o.name]=new SoundPool(o.path,o.size,o.volume,o.loop)}))}get(o){return this.sounds[o]}play(o){this.get(o).play()}pause(o){this.get(o).pause()}stop(o){this.get(o).stop()}}

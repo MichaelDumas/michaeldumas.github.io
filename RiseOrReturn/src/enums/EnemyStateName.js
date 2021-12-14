@@ -1,0 +1,1 @@
+const EnemyStateName={Idle:"idle",Moving:"moving",Follow:"follow"};export default EnemyStateName;

@@ -1,0 +1,1 @@
+const SoundName={Door:"door",HitEnemy:"hit-enemy",HitPlayer:"hit-player",Sword:"sword",MainTheme:"maintheme",MainThemeTrap:"mainthemetrap",Select:"select",RiseReturn:"riseorreturn",GameOver:"gameover",Swarm:"swarm",Slime:"slime",Skeleton:"skeleton",Change:"change"};export default SoundName;

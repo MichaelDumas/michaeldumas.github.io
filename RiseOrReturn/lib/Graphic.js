@@ -1,0 +1,1 @@
+export default class Graphic{constructor(t,i,h,e){this.image=new Image(i,h),this.image.src=t,this.width=i,this.height=h,this.context=e}render(t,i,h=this.width,e=this.height){this.context.drawImage(this.image,t,i,h,e)}}

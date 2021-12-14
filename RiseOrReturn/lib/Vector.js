@@ -1,0 +1,1 @@
+export default class Vector{constructor(t=0,s=0){this.x=t,this.y=s}set(t,s){this.x=t,this.y=s}add(t,s=1){this.x+=t.x*s,this.y+=t.y*s}}

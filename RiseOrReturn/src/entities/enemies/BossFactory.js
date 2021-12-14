@@ -1,0 +1,1 @@
+import BossType from"../../enums/BossType.js";import Room from"../../objects/Room.js";import Minotaur from"./Minotaur.js";export default class BossFactory{static createInstance(o,s,t){if(o===BossType.Minotaur)return new Minotaur(s,t)}}

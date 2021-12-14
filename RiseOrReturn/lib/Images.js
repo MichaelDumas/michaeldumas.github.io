@@ -1,0 +1,1 @@
+import Graphic from"./Graphic.js";export default class Images{constructor(t){this.context=t,this.images={}}load(t){t.forEach((t=>{this.images[t.name]=new Graphic(t.path,t.width,t.height,this.context)}))}get(t){return this.images[t]}render(t,e,i,r=null,h=null){this.get(t).render(e,i,r,h)}}
